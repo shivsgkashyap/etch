@@ -1,0 +1,171 @@
+/* font from https://www.dafont.com/game-over.font */
+@font-face {
+  font-family: gameover;
+  src: url("./src/fonts/game_over.woff") format("woff"),
+    url("./src/fonts/game_over.ttf") format("ttf");
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-size: 3em;
+  color: rgb(62, 166, 255);
+  font-family: gameover;
+}
+
+header img {
+  height: 2em;
+  width: 2em;
+  padding: 0.25em;
+}
+
+.wrapper {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5em;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  background-color: #585858;
+  border-radius: 4px;
+  color: rgb(62, 166, 255);
+  width: 18.5em;
+  padding: 2em;
+}
+
+.color-box {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  background-color: #585858;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.color-select,
+.bg-color-select {
+  width: 35%;
+  min-height: 3.5em;
+}
+
+.color-card-2 {
+  margin-bottom: 3em;
+}
+
+span {
+  margin-left: 0.4em;
+}
+
+button {
+  cursor: pointer;
+  border: 1.5px solid rgb(62, 166, 255);
+  background-color: #585858;
+  color: rgb(62, 166, 255);
+  border-radius: 2px;
+  transition: transform 0.1s ease-in-out;
+  font-size: 1em;
+  outline: none;
+  padding: 9px 15px;
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.rainbow-btn {
+  margin-bottom: 3em;
+}
+
+.size-value {
+  align-self: center;
+  margin-bottom: 0.5em;
+  font-size: 1.25em;
+}
+
+.size-slider {
+  width: 100%;
+  margin-bottom: 3em;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.size-slider:hover {
+  opacity: 1;
+}
+
+.toggle-lines {
+  margin-bottom: 3em;
+}
+
+.grid-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 660px;
+  height: 660px;
+  background-color: #585858;
+  border-radius: 4px;
+}
+
+.grid-container {
+  display: grid;
+  height: 600px;
+  width: 600px;
+  border: 1px solid rgb(156, 156, 156);
+  background-color: white;
+}
+.grid-square {
+  border: 0.5px solid silver;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -moz-user-select: none;
+}
+
+footer {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0.5em;
+}
+
+footer p {
+  color: white;
+}
+
+footer a {
+  align-self: center;
+  margin-left: 0.5em;
+}
+
+footer img {
+  height: 1.5em;
+  width: 1.5em;
+  transition: transform 0.3s ease-in-out;
+}
+
+footer img:hover {
+  transform: rotate(360deg) scale(1.2);
+}

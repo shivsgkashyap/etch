@@ -1,6 +1,6 @@
 /* font from https://www.dafont.com/game-over.font */
 @font-face {
-  font-family: gameover;
+  font-family: "gameover";
   src: local("gameover"), url("./fonts/game_over.woff") format("woff"),
     url("./fonts/game_over.ttf") format("ttf");
 }
@@ -13,7 +13,7 @@ header {
   margin-bottom: 0.5em;
   font-size: 3em;
   color: rgb(62, 166, 255);
-  font-family: gameover;
+  font-family: "gameover";
 }
 
 header img {

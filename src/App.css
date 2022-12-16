@@ -1,7 +1,8 @@
 /* font from https://www.dafont.com/game-over.font */
 @font-face {
   font-family: gameover;
-  src: url("game_over.woff") format("woff"), url("game_over.ttf") format("ttf");
+  src: local("gameover"), url("./fonts/game_over.woff") format("woff"),
+    url("./fonts/game_over.ttf") format("ttf");
 }
 
 header {

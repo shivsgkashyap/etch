@@ -12,6 +12,5 @@ Feature ideas to implement
 
 - Save images.
 - Export images.
-- Undo tool.
 
 [Live Demo](https://shivsgkashyap.github.io/etch-a-sketch/) :point_left:

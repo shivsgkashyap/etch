@@ -170,18 +170,3 @@ footer img {
 footer img:hover {
   transform: rotate(360deg) scale(1.2);
 }
-
-@media only screen and (max-width: 1000px) {
-  .main {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .controls {
-    width: 90%;
-  }
-
-  .grid-wrapper {
-    width: 90%;
-  }
-}

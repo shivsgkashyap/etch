@@ -96,7 +96,7 @@ export default function MainSection() {
 
   return (
     <main className="main">
-      <div className="controls">
+      <section className="controls">
         <div className="color-card">
           <div className="color-box">
             <input
@@ -142,8 +142,8 @@ export default function MainSection() {
         <button className="clear-btn" onClick={clearBg}>
           Reset
         </button>
-      </div>
-      <div className="grid-wrapper">{setupGrid()}</div>
+      </section>
+      <section className="grid-wrapper">{setupGrid()}</section>
     </main>
   );
 }

@@ -29,9 +29,9 @@ header img {
 
 .main {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 5em;
   margin-top: 3em;
-  margin-bottom: 3em;
 }
 
 .controls {
@@ -157,7 +157,7 @@ footer p {
 }
 
 footer a {
-  align-self: center;
+  display: flex;
   margin-left: 0.5em;
 }
 
